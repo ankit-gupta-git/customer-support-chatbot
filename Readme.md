@@ -128,7 +128,7 @@ Admin & Analytics
 
 ```
 ### **📞 Support & Contact**
-For issues & feature requests, contact [Your Name]
+For issues & feature requests, contact Ankit Gupta
 📧 Email: [ankitkumargupta752@gmail.com](mailto:ankitkumargupta752@gmail.com)  
 🐦 Twitter: [@ankitgupta_79](https://twitter.com/ankitgupta_79)
 
