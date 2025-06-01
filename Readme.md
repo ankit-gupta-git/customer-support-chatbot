@@ -53,8 +53,8 @@ This chatbot enhances **customer experience**, provides **instant responses**, a
 
 ### **Step 1: Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/chatbot-project.git
-cd chatbot-project
+git clone https://github.com/ankit-gupta-git/customer-support-chatbot
+cd customer-support-chatbot
 
 ```
 ### **Step 2: Install Dependencies**
@@ -128,10 +128,8 @@ Admin & Analytics
 
 ```
 ### **📞 Support & Contact**
-```sh
-For issues & feature requests, contact [Your Name]
-📧 Email: chaurasiayash2910@gmail.com
-🐦 Twitter: @Yash3129
+For issues & feature requests, contact Ankit Gupta
+📧 Email: [ankitkumargupta752@gmail.com](mailto:ankitkumargupta752@gmail.com)  
+🐦 Twitter: [@ankitgupta_79](https://twitter.com/ankitgupta_79)
 
-```
 ### **🎉 Thank You for Using AI Chatbot! 🚀**
