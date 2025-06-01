@@ -130,8 +130,8 @@ Admin & Analytics
 ### **📞 Support & Contact**
 ```sh
 For issues & feature requests, contact [Your Name]
-📧 Email: ankitkumargupta752@gmail.com
-🐦 Twitter: @ankitgupta_79
+📧 Email: [ankitkumargupta752@gmail.com](mailto:ankitkumargupta752@gmail.com)  
+🐦 Twitter: [@ankitgupta_79](https://twitter.com/ankitgupta_79)
 
 ```
 ### **🎉 Thank You for Using AI Chatbot! 🚀**
