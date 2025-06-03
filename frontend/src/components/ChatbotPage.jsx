@@ -80,12 +80,14 @@ const ChatbotPage = () => {
   useEffect(() => {
     if (isFirstRender.current) {
       isFirstRender.current = false;
-      // Do NOT scroll on first render
       return;
     }
-    // Only scroll when a new message is added (not on mount)
+    // Only scroll the chat container, not the whole page
     if (messages.length > 1) {
-      messageEndRef.current?.scrollIntoView({ behavior: "smooth" });
+      const chatContainer = document.querySelector('.chat-messages-container');
+      if (chatContainer) {
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+      }
     }
   }, [messages]);
 
@@ -169,7 +171,7 @@ const ChatbotPage = () => {
                 <div className="w-3 h-3 bg-neutral-300 rounded-full"></div>
               </div>
               {/* Chat Messages */}
-              <div className="text-left space-y-3 h-72 md:h-80 overflow-y-auto pr-2 custom-scrollbar">
+              <div className="text-left space-y-3 h-72 md:h-80 overflow-y-auto pr-2 custom-scrollbar chat-messages-container">
                 {messages.map((msg, index) => (
                   <div
                     key={index}
