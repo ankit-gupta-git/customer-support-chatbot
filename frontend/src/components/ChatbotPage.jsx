@@ -4,6 +4,7 @@ import Spline from '@splinetool/react-spline';
 import ReactMarkdown from "react-markdown";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import config from "../config";
 
 const ChatbotPage = () => {
   const [messages, setMessages] = useState([{ text: "Hi there, ask me anything:", sender: "bot" }]);
@@ -47,7 +48,7 @@ const ChatbotPage = () => {
     setUserInput("");
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:5000/api/chatbot/chat", {
+      const response = await fetch(`${config.API_URL}/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: inputText, language }),
